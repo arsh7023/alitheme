@@ -1,0 +1,447 @@
+/*
+Theme Name: alitheme
+Theme URI: 
+Author: Alireza Shamakhy
+Author URI: http://rezashamakhy.com/
+Description: 
+Version: 0.1
+Tags: 
+*/
+
+/*  html, body {
+	margin: auto;
+	padding: 0px;
+	/*background-color: #CCFFCC;*/
+	/*
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	height:100%;
+	 position: relative;
+    min-height: 100%;
+	
+	 }*/
+	 
+	 html {
+  position: relative;
+  min-height: 100%;
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 8px;
+
+}
+body {
+  /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+	background: url(img/bg-master.jpg) repeat;
+}
+#footer {
+  /*position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #C2A366;
+  
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+/*
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+*/
+
+
+	#header{
+  	width:1200px; 
+	
+	/*width:100%;*/
+	height:200px;
+	border:0px solid;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	background: url(img/header.png) no-repeat; 
+	overflow: hidden;
+	/*background-color: #db572f;*/ 
+	/*overflow: hidden;*/
+
+	}
+	
+	#menu-div {
+	width:1200px; 
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-top:2%;
+	}
+		
+	#center_div
+	{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+     /*width:1200px;*/ 
+	 width: 1300px;
+	  overflow: hidden;
+    /*height:300px;*/
+	
+	
+
+	}
+	
+	.myclass {
+		/*height: 200px;
+		min-height: 200px;*/
+		height: auto;
+		margin-left:5%;
+	     margin-right:auto;
+		 width:60%; 
+		 float:left;
+		 border:1px solid;
+		 margin-bottom:1px;
+		 
+	}
+	
+ 
+	
+	
+	#side-div {
+	width:25%; 
+	height:auto;
+	margin-left:auto;
+	margin-right:5%;
+    margin-top:0%;
+	float: right;
+	border:1px solid;
+	}
+
+
+/**
+ * 4.2 Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+.main-navigation {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1200px;
+	min-height: 45px;
+	position: relative;
+}
+
+ul.nav-menu,
+div.nav-menu > ul {
+	margin: 0;
+	padding: 0 40px 0 0;
+}
+
+.nav-menu li {
+	display: inline-block;
+	position: relative;
+}
+
+.nav-menu li a {
+	color: #141412;
+	display: block;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.nav-menu li:hover > a,
+.nav-menu li a:hover {
+	background-color: #220e10;
+	color: #fff;
+}
+
+.nav-menu .sub-menu,
+.nav-menu .children {
+	background-color: #220e10;
+	border: 2px solid #f7f5e7;
+	border-top: 0;
+	display: none;
+	padding: 0;
+	position: absolute;
+	left: -2px;
+	z-index: 99999;
+}
+
+.nav-menu .sub-menu ul,
+.nav-menu .children ul {
+	border-left: 0;
+	left: 100%;
+	top: 0;
+}
+
+ul.nav-menu ul a,
+.nav-menu ul ul a {
+	color: #fff;
+	margin: 0;
+	width: 200px;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover {
+	background-color: #db572f;
+}
+
+ul.nav-menu li:hover > ul,
+.nav-menu ul li:hover > ul {
+	display: block;
+}
+
+.nav-menu .current_page_item > a,
+.nav-menu .current_page_ancestor > a,
+.nav-menu .current-menu-item > a,
+.nav-menu .current-menu-ancestor > a {
+	color: #bc360a;
+	font-style: italic;
+}
+
+.menu-toggle {
+	display: none;
+}
+
+/* Navbar */
+.navbar {
+	/*background-color: #f7f5e7;*/
+	margin: 0 auto;
+	max-width: 1200px;
+	width: 100%;
+	margin-top:1%;
+}
+
+.site-header .search-form {
+	position: absolute;
+	right: 20px;
+	top: 1px;
+}
+
+.site-header .search-field {
+	background-color: transparent;
+	background-image: url(images/search-icon.png);
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: none;
+	cursor: pointer;
+	height: 37px;
+	margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+	width: 0;
+}
+
+.site-header .search-field:focus {
+	background-color: #fff;
+	border: 2px solid #c3c0ab;
+	cursor: text;
+	outline: 0;
+	width: 230px;
+}
+
+
+
+    .captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(img/browser-icons.png);
+        }
+
+/* bjkfdkfdsfgkdsgfjkdhsgfhjdsgfhjdksgfhjdskgfhjdsgfjdsgfjsdgfjsdgfjdshgfjdsghfjdsgfs */
+
+               .share-icon {
+                    display: inline-block;
+                    float: left;
+                    margin: 4px;
+                    width: 32px;
+                    height: 32px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                    background-image: url(img/share/share-icons.png);
+                }
+
+                .share-facebook {
+                    background-position: 0px 0px;
+                }
+
+                    .share-facebook:hover {
+                        background-position: 0px -40px;
+                    }
+
+        .share-twitter {
+            background-position: -40px 0px;
+        }
+
+            .share-twitter:hover {
+                background-position: -40px -40px;
+            }
+
+        .share-pinterest {
+            background-position: -80px 0px;
+        }
+
+            .share-pinterest:hover {
+                background-position: -80px -40px;
+            }
+
+                .share-linkedin {
+                    background-position: -240px 0px;
+                }
+
+                    .share-linkedin:hover {
+                        background-position: -240px -40px;
+                    }
+
+
+                .share-googleplus {
+                    background-position: -120px 0px;
+                }
+
+                    .share-googleplus:hover {
+                        background-position: -120px -40px;
+                    }
+
+
+        .share-stumbleupon {
+            background-position: -360px 0px;
+        }
+
+            .share-stumbleupon:hover {
+                background-position: -360px -40px;
+            }
+
+                .share-email {
+                    background-position: -320px 0px;
+                }
+
+                    .share-email:hover {
+                        background-position: -320px -40px;
+                    }
+					
+		 /* jssor slider arrow navigator skin 21 css */
+            /*
+            .jssora21l              (normal)
+            .jssora21r              (normal)
+            .jssora21l:hover        (normal mouseover)
+            .jssora21r:hover        (normal mouseover)
+            .jssora21ldn            (mousedown)
+            .jssora21rdn            (mousedown)
+            */
+            .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(img/a21.png) center center no-repeat;
+                overflow: hidden;
+            }
+            .jssora21l { background-position: -3px -33px; }
+            .jssora21r { background-position: -63px -33px; }
+            .jssora21l:hover { background-position: -123px -33px; }
+            .jssora21r:hover { background-position: -183px -33px; }
+            .jssora21ldn { background-position: -243px -33px; }
+            .jssora21rdn { background-position: -303px -33px; }
+
+
+	            /* jssor slider bullet navigator skin 21 css */
+            /*
+            .jssorb21 div           (normal)
+            .jssorb21 div:hover     (normal mouseover)
+            .jssorb21 .av           (active)
+            .jssorb21 .av:hover     (active mouseover)
+            .jssorb21 .dn           (mousedown)
+            */
+            .jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+            {
+                background: url(img/b21.png) no-repeat;
+                overflow:hidden;
+                cursor: pointer;
+            }
+            .jssorb21 div { background-position: -5px -5px; }
+            .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+            .jssorb21 .av { background-position: -65px -5px; }
+            .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+	
+	
+	.wide { 
+    text-align:left;
+    font-weight:bold;
+    background:#ebebeb;
+	background: url(img/ezbg.png) repeat;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100px;
+    }
+	
+	/*  calendar */
+	
+	.widget_calendar {float: left;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: right; color: #333; font-size: 12px; margin-top: 10px; margin-bottom: 15px; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #fff; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+
+
+.footcontainer {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}

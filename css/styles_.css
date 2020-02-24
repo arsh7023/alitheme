@@ -1,0 +1,685 @@
+﻿ul {list-style-type:none;width:100%;}
+ul li {float: left; position: relative;}
+ul li#blue ul { display:none; position:absolute; top:43px;left:0; width:150px;}
+ul li#blue:hover ul { display:block;}
+ul ul li {float:none; text-align:left;}
+ul li a {text-decoration:none; font-weight:bold; display:block; line-height:2em;color:black; padding:5px 10px;background-color:#33CCCC;
+border-left:1px solid white;border-right:1px solid #40C4D0;border-bottom:1px solid #FF6600;}
+ul ul li a { font-weight:normal ;border-right: none;border-left: none;}
+ul li a:hover {color:white;}
+
+ul ul li a:hover {color:grey;background-color:#40C4D0;}
+
+ul li#green a:hover {background-color:#40C4D0;}
+ul li#blue a:hover {background-color:#40C4D0;}
+ul li#orange a:hover {background-color:#40C4D0;}
+ul li#yellow a:hover {background-color:#40C4D0;}
+ul li#yellowgreen a:hover {background-color:#40C4D0;}
+ul li#ligthblue a:hover {background-color:#40C4D0;}
+
+.c
+{
+width:15%;
+
+}	
+.a
+{
+background-color:#CCFF99;
+}	
+
+
+
+html, body {
+	
+	margin: auto;
+	padding: 0px;
+	background-color: #CCFFCC;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	/*background:  url(../images/map1.gif) no-repeat;*/
+	/*background-image:url('../images/e2.jpg');
+	background-repeat:no-repeat;
+	background-position:center;*/
+		
+	
+   }	
+
+  
+
+
+.adds{
+	background-color:transparent;
+	/*background-image:url(images/plus.png);*/
+	width:50px;
+	height:15px;
+	border:0px;
+	cursor:pointer;
+	/*padding-top:10px;*/
+}
+
+.approved{background-color: #CCFFFF;}
+.notapproved{background-color: #FF6666;}
+
+.reven{background-color: #A9E2F3;}
+.rodd{background-color: #CEECF5;}
+
+
+
+#main_wrapper {
+	width:900px; 
+	height:1200px;
+	margin-left:auto; 
+	margin-right:auto; 
+	/*padding:10px;*/
+	border:0px solid #FFE306;
+	
+	/*background: url(../images_pres/cover_circles.jpg) no-repeat 300px 0; */
+	background: url(../images/bgpagesbig2.jpg) no-repeat;
+	
+	} 
+
+#main_wrapper2 {
+	width:900px; 
+	height:1200px;
+	margin-left:auto; 
+        margin-right:auto; 
+	/*padding:10px;*/
+	border:0px solid #FFE306;
+	
+	/*background: url(../images_pres/cover_circles.jpg) no-repeat 300px 0;
+	background: url(../images/bgpagesbig2.jpg) no-repeat; */
+	
+	}	
+	
+#header {
+		width:900px; 
+		height:100px;
+		border:0px solid ;
+        text-align:center;   
+        margin-left:auto; 
+	    margin-right:auto;  	    
+        /*margin-left:50%;
+    	/*margin-right:10px;
+	    margin-top:10px;
+	    margin-bottom:10px;
+	    background-color:#99cc00;*/
+	    background: url(../images/main-banner2.jpg) no-repeat;
+
+	}
+
+
+#headermedical {
+		width:900px; 
+		height:100px;
+		border:0px solid ;
+        text-align:center;   
+        margin-left:auto; 
+	    margin-right:auto;      
+        /*margin-left:50%;
+    	/*margin-right:10px;
+	    margin-top:10px;
+	    margin-bottom:10px;
+	    background-color:#99cc00;*/
+	    background: url(../images/medical-banner.jpg) no-repeat;
+
+	}
+	
+	
+	
+#middle-div {
+    float:left;
+	margin-left:190px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:450px;
+	height:600px;
+	border:0px solid ;
+	
+	}
+	
+#middle-div-1{
+    float:left;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:450px;
+	height:600px;
+	border:1px solid ;
+	
+	}
+	
+
+#first-middle-div {
+float:left;
+overflow:auto;
+min-height:100px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:550px;
+	height:1100px;
+	border:0px solid ;
+	/*background-image:url(registration.png);*/
+	}
+
+#first-middle-div-user {
+float:left;
+overflow:auto;
+min-height:100px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:550px;
+	height:1100px;
+	border:0px solid ;
+	/*background-image:url(registration.png);*/
+	}
+
+	
+#left-div {
+float:left;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:150px;
+	height:600px;
+	border:0px solid ;
+	/*background-image:url(registration.png);*/
+	}
+	
+	
+#middle-div-user {
+    float:left;
+	margin-left:50px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:550px;
+	height:600px;
+	border:1px solid ;
+	background-image:url(registration.png);
+	}
+	
+#left-box-div {
+float:left;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:50px;
+	height:100px;
+	border:0px solid ;
+	/*background-image:url(registration.png);*/
+	/*background: url(../images/bullet.jpg) no-repeat;*/
+	}
+
+
+
+#right-div-home1 {
+float:left;
+	margin-left:145px;
+	margin-right:1px;
+	margin-top:5px;
+	margin-bottom:10px;
+	width:100px;
+	height:100px;
+	border:0px solid ;
+
+	background: url(../images/home.jpg) no-repeat;
+	}
+		
+
+#right-div-aboutus {
+float:left;
+	margin-left:145px;
+	margin-right:1px;
+	margin-top:5px;
+	margin-bottom:5px;
+	width:100px;
+	height:100px;
+	border:0px solid ;
+
+	background: url(../images/aboutus.jpg) no-repeat;
+	}	
+
+#right-div-register {
+float:left;
+	margin-left:145px;
+	margin-right:1px;
+	margin-top:50px;
+	margin-bottom:5px;
+	width:100px;
+	height:100px;
+	border:0px solid ;
+
+	
+	}
+
+
+#right-div-user {
+float:left;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100px;
+	height:600px;
+	border:1px solid ;
+
+	/*background-image:url(registration.png);*/
+	}	
+	
+
+	
+#right-div {
+float:left;
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100px;
+	height:600px;
+	border:0px solid ;
+
+	/*background-image:url(registration.png);*/
+	}	
+
+
+
+#header-div {
+clear:both; 
+	margin-left:20px;
+	margin-right:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:700px;
+	height:120px;
+	background-image:url(registration.png);
+	}		
+	
+#footer-div {
+
+	/*margin-left:20px;
+	margin-right:10px;
+	margin-top:-10px;
+	margin-left:375px;
+	margin-left:auto; 		
+	margin-right:auto; 
+   overflow:hidden;
+   	float:left;	
+   		clear:both;
+   		overflow:hidden;
+	margin-bottom:1px;*/
+
+	
+
+
+ 	margin-left:auto; 		
+	margin-right:auto; 
+
+    width:900px;
+	height:20px;
+	border:1px solid ;
+    background-color:#99cc00;
+    text-align:center;
+   
+	/*background-image:url(registration.png);*/
+	}		
+	
+	
+#menu{
+	/*line-height:3.5em;
+	text-align:center;
+	width: 80%;
+	margin: 10px;
+	border:1px solid #FFE306;
+	background: url(../images/bg_td2Yelo.jpg) repeat-x right;
+	color:#666666;
+	font-size:1.2em;
+	font-weight:bold;*/
+	
+	padding-left: 12px;
+	padding-right: 11px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border:1px solid #FFE306;
+}
+	
+ul#list-nav-marchent {
+	list-style:none;
+	padding-left:20px;
+	margin-top:20px;
+	padding:0;
+	width:96%;
+	font-size:13px;
+	font-family:serif;
+	font-weight: bold;
+	
+	
+}
+ul#list-nav-marchent li {
+	display:inline
+}
+ul#list-nav-marchent li a {
+	background-color:#FFFFFF;
+	height: 2.2em;
+	line-height: 2.2em;
+	float: left;
+	display: block;
+	border: 0.1em solid #dcdce9;
+	text-decoration: none;
+	text-align: center;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:5px;
+	color:#666666;
+}
+ul#list-nav-marchent li a:hover {
+	color:#FFFFFF;
+	background-color:#666666;
+}
+#list-nav-marchent .active {
+	/*background: #FFF8E8 url(../../images/bg_total2.jpg) repeat-x;*/
+	color:#000;
+	border:1px solid #FFE306;
+}
+	
+#left_div	
+{
+				
+ 	float:left;
+ 	width:100px;
+ 	height:100px;
+ 	border:1px solid black;		
+				
+}
+	
+#threecolwrap {
+  	float:left;
+  	width:100%;
+ 	background: url(../images_pres/full_arc.gif) no-repeat;
+ 	}
+#twocolwrap {
+ 	float:left;
+	width:100%;
+	display:inline; /* stops IE doubling  margin on float*/
+	margin-right:-170px; /* CWS - neg margin move */
+	/*background:url(images/blue_circles_on_lime.gif) repeat-y left;*/
+	}
+#nav {
+ 	float:left;
+ 	width:200px;
+	}
+#content {
+ 	width:auto;
+ 	margin-left:200px;
+ 	margin-right:170px;
+ 	padding:0;
+	}
+#promo {
+ 	float:left;
+ 	width:170px; 
+	}
+ #footer {
+ 	clear:both;
+	background:  url(../images_pres/gray_footer.gif) no-repeat;
+	}
+/* end of structural styles */ 
+
+/* inner div margin */
+#header_inner, #nav_inner, #content_inner, #promo_inner {
+	overflow:hidden; /* prevents oversize elements from breaking the layout */
+	}
+#header_inner {
+	/* I want the header content to touch the edges, so no padding */
+	}
+#nav_inner {
+	margin:0 15px;
+	padding:0 6px;
+	}
+#content_inner {
+	padding:0 1em .3em 0em;
+	}
+#promo_inner {
+	padding:0 .5em 1em 0em;
+	}
+#footer_inner {
+	padding:1em 5em;
+	text-align:center;
+	}
+
+.selected {
+	
+	padding-left:10px;
+	padding-top:10px;
+	/*font-family: 'Trajan Pro', 'Times New Roman';*/
+	font-size: 16px;
+	font-weight: bold;
+	color:  #0D0709;
+	/*list-style:none;*/
+}
+
+.notselected {
+	/*font-family: 'Trajan Pro', 'Times New Roman';*/
+	font-size: 14px;
+	font-weight: normal;
+	padding-left:1px;
+	padding-top:10px;
+	/*list-style:none;*/
+}
+
+/* drop menu */
+
+
+ div.multi_drop_menus * {
+ margin:auto; padding:0;     /* removes margin and padding off all list elements */
+ }
+/* SET YOUR PREFERENCES!!! */
+/* set your menu's font and colors here - the MENU MECHANICS  follow below */
+div.multi_drop_menus {
+  behavior:url(../../lib/js_tools/csshover.htc);/* you must link to the hover.htc file for this menu to work in IE6 and earlier */
+/* need a copy? go to http://www.xs4all.nl/~peterned/htc/csshover.htc - copy the code into a text file and save it as csshover.htc */
+ font-family: arial, sans-serif;   /* font family for menu */
+ font-size:.8em; /* size of menu's type relative to parent element */
+ margin:0px 0 10px 0px;
+ background-color:transparent;    /* colors the div - div fills the parent element for a horizontal menu - set to background-color:transparent; if not needed */
+ }
+div.multi_drop_menus ul {
+ 	border-left:1px solid #CCB;   /* creates dividing line to left of level 1's first menu item, revealing div color to left of menu */
+	display:inline;						/* fixes margin-doubling bug in IE6 */
+ 	}
+div.multi_drop_menus li {
+ background-color:#FFF;         /* background color of the level 1 menu items */
+ border-right:1px solid #CCB;   /* creates dividing lines to right of each horiz level 1 menu item *//* set to 0px to remove */
+ }                						    /* border-right is automatically removed from vert menu below  */
+
+div.multi_drop_menus li:hover {
+ background-color:#F0F7D9;      /* background color of hovered menu items */
+ }
+ div.multi_drop_menus a {
+ color:#776;                     		/* sets the color of all menu type */
+ padding:.2em 5px;           		/*creates space top/bottom and left/right respectively around each menu item's text - set vert height in ems   */
+ }
+ div.multi_drop_menus a:hover {
+ color:#443;        				 /* type color of a hovered menu choice */
+ }
+div.multi_drop_menus ul li ul {
+ width:12em;   						/* sets the width of menu levels 2 - 4 */
+ }
+div.multi_drop_menus li li { 
+ background-color:#E0E7C9;        /* background color of the level 2 menu */
+ border-bottom:1px solid #CCB; /* lines between menu choices - set to 0px if not wanted */
+ }
+div.multi_drop_menus ul li ul li ul  {
+ border-top:1px solid #CCB;     /* set the border-top of levels 3 and 4 of a horizontal menu - set to 0px to remove - for a vertical menu, you will set this for levels 1 - 4 below */
+ top:-1px; /* set to negative value of border-top for perfect pop-out alignment -set to 0 if border is 0 - don't remove! */
+ } 
+div.multi_drop_menus li li li { 
+ background-color:#EEB;          /* background color of the level 3 menu */
+ }
+div.multi_drop_menus li li li li { 
+ background-color:#DDA;         /* background color of the level 4 menu */
+ }
+  /* Want transparency on your menus? add the class 'transparent' to the multi_drop_menus div */
+div.multi_drop_menus.transparent ul ul li {
+ /* note: the lower the value, the greater the transparency */
+  opacity:0.9; /* CSS3 - range 0 to 1 */     
+  -moz-opacity:0.9; /* Firefox- range 0 to 1  */
+  filter:alpha(opacity=90);  /* IE- range 0 to 100  */
+  }
+/* ADDITIONAL PREFS FOR VERTICAL MENU - NO NEED TO TOUCH THESE IF LEVEL 1 IS HORIZONTAL */
+div.multi_drop_menus.vertical ul {
+ border-top:1px solid #CCB;     /* set the border-top of level 1 of the vertical menu - broken out separately so it can be different from top border of other levels */
+ }
+div.multi_drop_menus.vertical li {
+ border-bottom:1px solid #CCB;  /* adds horizontal lines between menu choices - overrides main setting above for this feature */
+ }
+div.multi_drop_menus.vertical ul ul  {
+ border-top:1px solid #CCB;       /* set the border-top of levels 2 - 4 of a vertical menu - set to 0 to remove */
+ top:-1px;            /* set to negative value of border-top for perfect pop-out alignment - set to 0 if border is 0 - don't remove!*/
+ }
+ 
+/* end vertical menu preferences */
+/* END MENU PREFERENCES */
+ 
+/* YOU ARE STONGLY ADVISED NOT TO MODIFY THE CODE THAT FOLLOWS : ) */
+/* the menu mechanics start here */
+div.multi_drop_menus {
+	float:left;
+ 	width:100%;
+	}
+div.multi_drop_menus ul {
+ float:left; /* makes ul wrap li */
+font-size:1em; /* prevents inheritence from maiin text style sheet */
+}
+div.multi_drop_menus li {
+ float:left;  /*causes the list to align horizontally instead of stack */
+ list-style-type:none; /* removes the bullet off each list item */
+ position:relative; /* positioning context for the absolutely positioned drop-down */
+ }
+div.multi_drop_menus a {
+ display:block; /* makes link fill li so entire area is "hot" */
+ text-decoration:none;  /* removes the underlining from the links */
+ }
+/* the horizontal menu ends here */
+/* the drop-downs starts here */
+div.multi_drop_menus ul li ul { 
+ position:absolute;     /* positions the drop-down ul in relation to its relatively positioned li parent */
+ border:0;         			/* stops inheritance from level 1 ul */
+ margin-left:0px;        /* stops inheritance from level 1 ul */
+ }
+div.multi_drop_menus ul li ul li {
+ width:100%;
+ padding:0; /* stops inheritance */
+ border-left:0; /* stops inheritance */
+ border-right:0; /* stops inheritance */
+ }
+div.multi_drop_menus ul li ul {display:none;} /* conceals the drop-down when menu not hovered */
+div.multi_drop_menus ul li:hover ul {
+	display:block; /* shows the drop-down when the menu is hovered */
+	z-index:1000; /* Safari needs this to display menu on top of other page elements */
+	} 
+/* pop-outs starts here */
+body div.multi_drop_menus ul li ul li ul  {
+ position:absolute; /* associated menu with parent li positioning context */
+ visibility:hidden; /* ensures that level 3 menu is not reveal when level 2 is reveled */
+ left:100%;
+ top:-1px; /* aligns level 3 and 4 pop-out with previous level */
+ }
+div.multi_drop_menus ul li ul li:hover ul {visibility:visible;} /* shows level 3 menu when associated level 2 li is hovered */
+/* second and third level popouts here*/
+div.multi_drop_menus ul li ul li:hover ul li ul {visibility:hidden;} /* ensures that level 4 is not reveal when level 3 is reveled */
+div.multi_drop_menus ul li ul li ul li:hover ul {visibility:visible;}  /* shows level 4 menu when associated level 3 li is hovered */
+/* the drop-downs end here */
+ 
+/* extra styles for the vertical menu */
+div.multi_drop_menus.vertical ul {
+ border-left:0px; /* removes the border of the level 1 ul that can be used in the horizontal menu */
+ margin-left:0;         /* removes left margin that is available on horizontal menu */
+ }
+.vertical ul { /* took off the id so the ul ul width setting in prefs was more specific */
+ width:100%; 
+}
+div.multi_drop_menus.vertical li {
+ position:relative; /* positioning context for the level 2 menu */
+ width:100%;         /* set width of level 1 menu - MUST match left value in ul ul selector below */
+ clear:left; /* makes the main menu stack - note: turning off floating (alternative way to create stacking) causes spacing problems in IE */
+ border-right:0; /* removes right borders used by horiz level 1 */
+}
+div.multi_drop_menus.vertical ul ul  {
+ position:absolute; /* make ul position relative to parent li for all menu levels */
+ left:100%;         /* align level 2 with level 1 - MUST match li width in selector above */
+ top:-1px; /* aligns the level 2 pop-out */
+ }
+/* levels 2 -4 width */
+div.multi_drop_menus.vertical li li {
+}
+div.multi_drop_menus.vertical ul ul ul {
+ left:100%;          /* align level 2 with level 3 and 3 with 4 - MUST match li width in selector above */
+ }
+ /* END MENU MECHANICS */
+ 
+/* inevitable hacks for IE6  and < */
+* html div.multi_drop_menus {
+ z-index:1; /* IE6 won't respect high z-index on abs-pos'd child (ul li ul) without this on its parent rel-pos'd element */
+ }				/* see http://www.last-child.com/conflicting-z-index-in-ie6/ */
+* html div.multi_drop_menus ul li ul {
+  z-index:400; /*ensures menu is on top of other page elements */
+ }
+* html div.multi_drop_menus a {
+/* cannot find a way to get the top level 'a' to fill the unwidthed menu choices without drop-down in IE : ( */
+} 
+* html div.multi_drop_menus.vertical a {
+/* now hasLayout in IE - works on the vert menu as container has width */
+ zoom:100%;
+ } 
+ * html div.multi_drop_menus ul ul a { /* second level of horiz menu */
+ zoom:100%;  /* now IE 'haslayout" - IE now makes background hot in horizontal menus */
+ } 
+  /* info on haslayout: 
+  http://www.sitepoint.com/forums/showpost.php?p=2041209&postcount=24
+  http://onhavinglayout.fwpf-webdesign.de/hack_management/
+   */
+ /* END OF LIST-BASED MENU */
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	

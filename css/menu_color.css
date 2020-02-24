@@ -1,0 +1,18 @@
+ul {list-style-type:none;width:100%;}
+ul li {float: left; position: relative}
+ul li#blue ul { display:none; position:absolute; top:43px;left:0; width:150px;}
+ul li#blue:hover ul { display:block;}
+ul ul li {float:none; text-align:left;}
+ul li a {text-decoration:none; font-weight:bold; display:block; line-height:2em;color:black; padding:5px 10px;background-color:#F6F6F6;
+border-left:1px solid white;border-right:1px solid #999;border-bottom:1px solid #999;}
+ul ul li a { font-weight:normal ;border-right: none;border-left: none;}
+ul li a:hover {color:white;}
+
+ul ul li a:hover {color:grey;background-color:#40C4D0;}
+
+ul li#green a:hover {background-color:#C5D01C;}
+ul li#blue a:hover {background-color:#40C4D0;}
+ul li#orange a:hover {background-color:#FF6600;}
+ul li#yellow a:hover {background-color:#FFC602;}
+ul li#yellowgreen a:hover {background-color:#C5D01C;}
+ul li#ligthblue a:hover {background-color:#40C4D0;}
